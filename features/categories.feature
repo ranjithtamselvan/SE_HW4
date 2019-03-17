@@ -4,8 +4,8 @@ Feature: Test Category
   I need provision to view,add and update categories
 
   Background:
-    Given the blog is created
-    And I am logged as administrator
+    Given the blog is set up
+    And I am logged into the admin panel
 
   Scenario:
     Given I am on the category page
